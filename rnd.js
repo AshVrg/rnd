@@ -8,7 +8,7 @@ var Randomizer = {
       var attendees = document.getElementsByClassName("name");
   
       if (attendees.length == 0) {
-        return;
+        return alert("I am an alert box!");
       }
       var el = document.createElement("div");
       el.style.width = "80%";
